@@ -6,8 +6,8 @@ studentData = readtable('STUDENT_DATA.xlsx');
 numStudents = height(studentData);
 
 % DEFINING EXACT CREDIT WEIGHTS FROM EXCEL LEGEND
-cu_Y1S1 =;          
-cu_Y1S2 =;      
+cu_Y1S1 = [4, 4, 3, 4, 4];          
+cu_Y1S2 = [4, 4, 3, 4, 3, 3];      
 totalCU_Y1S1 = sum(cu_Y1S1);           % 19 CU
 totalCU_Y1S2 = sum(cu_Y1S2);             % 21 CU
 totalCumulativeCU = totalCU_Y1S1 + totalCU_Y1S2; % 40 CU(Year 1)
